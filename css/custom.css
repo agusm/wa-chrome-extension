@@ -1,0 +1,107 @@
+#wrapper{
+    width:500px;  
+    height: 600px;
+    background: #fff;
+    padding: 10px;
+    overflow: scroll;
+}
+#wrapper404{
+    width:500px;  
+    height: 70px;
+    background: #fff;
+    padding: 10px;
+    overflow: scroll;
+}
+.col3{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+.col6{
+    width: 60%;
+    float: left;
+    margin-right: 3%;
+    padding-left:7%;
+}
+.clear{
+    clear: both;
+}
+.price_form{
+    width:30%;
+    float: left;
+    margin-right: 5%;
+}
+.compare_price_form{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.img-small{
+    width:100%;
+    margin: 10px;
+}
+.img-gallery-wrapper{
+    float:left;
+    width:15%;
+    margin:0% 2%;
+    position: relative;
+}
+.img-gallery-wrapper .btn{
+    position: absolute;
+    top:19px;
+    right:2px;
+    visibility: hidden;
+}
+#look_variant{
+ margin-bottom:10px;   
+}
+.variant_wrapper{
+	width:100%;
+	background: #f5f5f5;
+	padding: 10px 40px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+    margin:20px 0px;
+    display: none;
+}
+.variant_wrapper .btn-danger{
+	margin-bottom:10px;
+}
+.btn {
+    
+    border-radius:3px;
+}
+.btn-primary{
+    background: #FF3F00;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border:solid 1px #FF3F00;
+}
+.btn-primary:hover {
+    background: #FF3F00;
+    border:solid 1px #FF3F00;
+}
+#forgot {
+    margin-left: 10px;
+    color: #FF9400;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #FF9400;
+  box-shadow: 0 1px 1px rgba(100%, 58%, 0%, 6%) inset, 0 0 8px rgba(100%, 58%, 0%,6%);
+  outline: 0 none;
+}
